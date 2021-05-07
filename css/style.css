@@ -1,0 +1,380 @@
+
+/* ..........................................................................*/
+*{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+   
+}
+.asidebar {
+    width: 60px;
+    position: fixed;
+    background-color: #2D3038;
+    height: 100vh;
+    
+}
+.logo{
+    background: url(../images/logo-new.png) no-repeat;
+    background-size: cover;
+    width: 194px;
+    height: 46px;
+    float: right;
+    margin: 5px -7px;
+    cursor: pointer;
+    
+    
+}
+
+
+.menu{
+  
+    padding: 3px;
+    
+  
+}
+img{
+    padding: 10px;
+    
+}
+img:hover{
+   filter: invert(0.5)
+}
+#mn{
+    filter: invert(1);
+}
+#setting{
+    position: absolute;
+    bottom: 14%;
+    left: 10px;
+   
+}
+.active{
+    background: url(../images/CAR_Q2_2021_TG_ShopAll.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    bottom: 4%;
+    left: 3px;
+    border-radius: 50%;
+    padding: 5px;
+}
+h6{
+    font-size: 11px;
+    margin-top: 51px;
+    color: white;
+   
+}
+/*                                        header                    */
+
+.header{
+    
+    background-color:#FFFFFF;
+    height: 60px;
+    /* border: 1px solid black; */
+    margin-left: 62px;
+}
+
+ .unorderdlist li{
+    margin: 4px;
+    padding: 10px;
+    float: left;
+
+}
+.headermenu{
+    color:  #3688D0;
+    font-size: 19px;
+
+}
+.headermenu :hover{
+    color: black;
+}
+#arrow{
+    width: 13px;
+    cursor: pointer;
+    float: right;
+}
+.lays{
+    background: url(../images/brandlo.gif) no-repeat;
+    background-size: cover;
+    width: 103px;
+    height: 85px;
+    position: absolute;
+    top: -4%;
+    left: 74%;
+
+}
+.menubar{
+    margin-left: 84%;
+}
+
+.header-icon{
+   margin-top: 8px;
+}
+h1{
+    
+    position: absolute;
+    left: 83%;
+    top: 1%;
+}
+/*                                   body                            */
+body{
+    background-color:#F6F5F8;
+    
+}
+.search-container{
+    height: 36vh;
+    background-color: #20A6C3;
+    margin: 8px;
+    float: right;
+    border-radius: 9px;
+    width: 94%;
+}
+h3{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 23px;
+}
+
+form{
+    float: left;
+    margin-left: 50px;
+}
+#searchbar{
+    width: 374%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 21px;
+    background-color: white;
+    background-image: url(../images/search.svg);
+    background-position: 19px 14px;
+    background-repeat: no-repeat;
+    padding: 13px 19px 12px 67px;
+    background-size: 31px;
+    cursor: pointer;
+    border: none;
+    outline: none
+}
+.micro{
+    background: url(../images/microphone.png) no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    float: left;
+    position: absolute;
+    left: 92%;
+    top: 22%;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.btn1{
+ 
+  
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #1F6893;
+    color: white;
+    font-size: 12px;
+    height: 35px;
+    position: absolute;
+    left: 38%;
+    top: 35%;
+    cursor: pointer;
+}
+
+.btn2{
+    
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #2496C0;
+    color: white;
+    font-size: 12px;
+    height: 35px;
+    position: absolute;
+    left: 55%;
+    top: 35%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.music{
+    background: url(../images/play-button.png) no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 75%;
+    top: 41%;
+    cursor: pointer;
+    filter: invert(1);
+
+}
+#videolink{
+    font-size: 13px;
+    color: white;
+    inline-size: max-content;
+    margin-left: 48%;
+    margin-top: 131px;
+    float: left;
+}
+.graph_container{
+ 
+    width: 94%;
+    background-color: white;
+    margin-top: 20%;
+    /* border: 1px solid black; */
+    height: 288px;
+    margin-left: 75px;
+}
+h4{
+    margin-left: 2px;
+    background: #2885BD;
+    display: inline-block;
+    width: 98%;
+    color: white;
+    padding: 11px;
+    cursor: default;
+}
+.graph-image{
+    float: left;
+    background: url(../images/Intelligent-search-1.jpg) no-repeat;
+    background-size: cover;
+    width: 779px;
+    height: 224px;
+    margin: 10px;
+}
+.form-container{
+    float: right;
+   
+    width: 35%;
+    border: 1px solid #E2E2E2;
+    height: 77%;
+    margin: 10px;
+}
+#filters{
+      
+    
+    text-decoration: underline;
+    color: #4890B4;
+   
+    padding: 5px;
+    margin: 5px;
+    
+}
+#filter{
+    margin-top: 4px;
+    margin-left: 12px;
+    font-size: 14px;
+}
+#house{
+   
+    width: 427px;
+    border: none;
+    height: 27px;
+    border-radius: 6px;
+    outline: none;
+    background-color: #F6F5F8;
+    cursor: pointer;
+    margin-left: 14px;
+    padding: 5px;
+    display: flow-root
+}
+
+
+.sub{
+    color: white;
+    background-color: #1F6893;
+    float: left;
+    margin-top: 14px;
+    margin-left: 19px;
+    width: 79px;
+    height: 27px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#reset_link{
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    float: left;
+    text-decoration: underline;
+    color: #1F6893;
+}
+
+#ul1{
+    width: 30%;
+    background-color: white;
+    margin-top: 1%;
+    /* border: 1px solid black; */
+    height: 300px;
+    margin-left: 75px;
+    float: left;
+}
+#hd{
+    background-color: #1F6893;
+    font-size: 15px;
+    width: 95%;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 10px;
+    cursor: default;
+}
+#ul2{
+    width: 30%;
+    background-color: white;
+    margin-top: 1%;
+    /* border: 1px solid black; */
+    height: 300px;
+    margin-left: 25px;
+    float: left;
+}
+#ul3{
+    width: 30%;
+    background-color: white;
+    margin-top: 1%;
+    /* border: 1px solid black; */
+    height: 300px;
+    margin-left: 25px;
+    float: left;
+}
+#lorem{
+    margin: 0px;
+    list-style: disc;
+    font-size: 12px;
+    padding: 4px;
+    margin-left: 27px;
+    color: #1F6893;
+    margin-top: 5px
+}
+
+
+.list-of-menu{
+    display: none;
+  
+}
+    
+.header ul li:hover .list-of-menu
+{
+    
+    display: block;
+    position: absolute;
+    background-color:transparent;
+    
+   
+}
+
+
+ .list-of-menu li {
+    float: none;
+    margin-left: 115px;
+}
